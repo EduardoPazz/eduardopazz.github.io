@@ -23,6 +23,10 @@ grasp = alcançar
 arguably = discutivelmente
 fallback = plano B, alternativa
 sligthly = sutilmente
+tamper = adulterar
+broaden = ampliar
+hazard = perigo
+narrow = estreito, limitado
 
 Dicas de Sintaxe:
 
