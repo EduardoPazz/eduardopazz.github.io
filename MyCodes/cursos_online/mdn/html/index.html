@@ -4,24 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Audio e Vídeo</title>
+  <title>Document</title>
   <style>
-    p {
-      background-image: url("https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg");
-    }    
+    svg:hover {
+      
+    }
   </style>
 </head>
 <body>
-  <audio controls>
-    <source src="Gorillaz-Starshine.webm" type="audio/webm">
-  </audio>
-  <button>Load</button>
-  <script>
-    const audio = document.getElementsByTagName('audio')[0],
-          botao = document.getElementsByTagName('button')[0];
-    botao.onclick = () => {
-      audio.load();
-    };
-  </script>
+  <svg width="300" height="200">
+    <rect width="100%" height="100%" fill="green" />
+  </svg>
 </body>
 </html>
