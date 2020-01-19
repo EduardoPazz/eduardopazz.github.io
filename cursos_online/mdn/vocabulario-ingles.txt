@@ -1,26 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+conversely = inversamente
+span = pequena expansão, pequeno espaço de tempo
 
 Dicas de Sintaxe:
 
