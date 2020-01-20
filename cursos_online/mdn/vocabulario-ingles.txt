@@ -1,5 +1,28 @@
-conversely = inversamente
+Verbs:
+fetch = buscar, pesquisar 
+carry = cuidar
+stand = ficar de pé, significar
+
+
+Nouns:
 span = pequena expansão, pequeno espaço de tempo
+stand = ficar de pé, suporte, arquibancada
 
-Dicas de Sintaxe:
 
+Adverbs:
+conversely = inversamente
+
+Adjectives:
+
+
+
+
+
+
+
+Expressões e phrasal verbs:
+
+"Bear in mind" = Algo como "tenha em mente"
+"Carry on" = continuar
+"where left off" = "onde parou"
+"each in turn" = "cada um por sua vez"
