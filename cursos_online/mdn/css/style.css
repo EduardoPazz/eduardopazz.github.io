@@ -1,0 +1,9 @@
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+}   
+
+p:focus {
+  color: bisque;
+}
+  
