@@ -26,3 +26,6 @@ Expressões e phrasal verbs:
 "Carry on" = continuar
 "where left off" = "onde parou"
 "each in turn" = "cada um por sua vez"
+"to get to grips" = "para entender"
+"aka" = sigla para "also known as"
+"fine-grained" = Remete à precisão. 
