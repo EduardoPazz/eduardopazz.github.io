@@ -12,30 +12,34 @@ let randomNumber = generateNewNumber(1, 100);
 
 // Checking the value of input
 
-let button = document.querySelector('button'), input = document.querySelector('#number_input');
+const button = document.querySelector('button'), input = document.querySelector('#number_input');
 
 button.onclick = check_value;
 
 function check_value(value) {
     value = input.value;
     if (value == "") {
-        alert("Submit any number")
+        alert("Submit any number");
+        input.focus()
     } else if (value < 1 || value > 100) {
-        alert("Invalid value. Submit any number between 1 and 100")
+        alert("Invalid value. Submit any number between 1 and 100");
+        input.focus()
     } else if (value > randomNumber) {
         feedbackHigh();
-        numberRegistration(value)
+        numberRegistration(value);
+        input.focus()
     } else if (value < randomNumber) {
         feedbackLow();
-        numberRegistration(value)
+        numberRegistration(value);
+        input.focus()
     } else if (value == randomNumber) {
         winningMessage()
-    };
+    }
 };
 
 // Giving feedbacks
 
-let para = document.createElement('p');
+const para = document.createElement('p');
 
 document.body.appendChild(para);
 
@@ -45,33 +49,34 @@ function feedbackHigh() {
 };
 
 function feedbackLow() {
-    para.textContent = "You missed! You've tried too low"
+    para.textContent = "You missed! You've tried too low";
     styles()
 };
 
 function styles() {
-    para.style.borderRadius = "10px"
-    para.style.padding = "1em"
+    para.style.borderRadius = "10px";
+    para.style.padding = "1em";
     para.style.color = 'white';
     para.style.background = "rgb(231, 49, 49)"
 };
 
 // Showing previous numbers and testing limit
 
-let values = [], numbersList = document.createElement('p');
+let values = [];
+const numbersList = document.createElement('p');
 
 document.body.appendChild(numbersList);
 
 function numberRegistration(value) {
-    let limitTest = values.push(value);
+    let limitTest = values.push(value); // Add the latest number informed to the array and measure its length. The length will be tested soon
 
-    numbersList.textContent = `You've already tried ${values.join(', ')}`;
+    numbersList.textContent = `You've already tried ${values.join(', ')}`; //Concatanate all the numbers already storaged in the array to a simple string the be shown to the user
 
-    if (limitTest == 10) {
+    if (limitTest == 10) { // Test whether the array already holds 10 values
         alert('You\'ve exceeded the maximum tries, generating new number.');
         reboot()
     }
-}
+};
 
 // Giving "Winning" message
 
@@ -82,8 +87,8 @@ function winningMessage() {
     para.style.background = "greenyellow";  
     para.textContent = `Great, you guessed right! The number is ${randomNumber}.`;
     numbersList.textContent = "Wait some seconds to reboot...";
-    setTimeout(reboot, 5000);
-}
+    setTimeout(reboot, 5000)
+};
 
 // Reboot
 
@@ -92,5 +97,5 @@ function reboot() {
     para.style.background = "initial";
     numbersList.textContent = '';
     values = [];
-    randomNumber = generateNewNumber(1, 100);
-}
+    randomNumber = generateNewNumber(1, 100)
+};
