@@ -1,0 +1,30 @@
+Verbs:
+fetch = buscar, pesquisar 
+carry = cuidar
+stand = ficar de pé, significar
+plunge = mergulhar
+daunt = assustar, intimidar
+
+
+Nouns:
+span = pequena expansão, pequeno espaço de tempo
+stand = ficar de pé, suporte, arquibancada
+
+
+Adverbs:
+conversely = inversamente
+
+Adjectives:
+dauting = intimidador, assustador
+
+
+
+Expressões e phrasal verbs:
+
+"Bear in mind" = Algo como "tenha em mente"
+"Carry on" = continuar
+"where left off" = "onde parou"
+"each in turn" = "cada um por sua vez"
+"to get to grips" = "para entender"
+"aka" = sigla para "also known as"
+"fine-grained" = Remete à precisão. 

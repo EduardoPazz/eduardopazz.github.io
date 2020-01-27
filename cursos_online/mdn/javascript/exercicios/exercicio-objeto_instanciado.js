@@ -14,7 +14,7 @@ function Person(first, last, age, gender, interests) {
     };
 };
 
-// Dados "coletados"
+// Dados "coletados" ------------------------
 
 let dados = [ nomes_first = ['João', 'Eduardo'],
     nomes_last = ['Silva', 'Paz'],
@@ -22,6 +22,8 @@ let dados = [ nomes_first = ['João', 'Eduardo'],
     genero = ['masculino', 'masculino'],
     interesse = ['esquiar', 'futebol']
 ];
+
+// --------------------------------------
 
 // Gambiarra para passar os dados como parâmetro da função construtora automaticamente, e depois atribuir a função à variáveis.
 
