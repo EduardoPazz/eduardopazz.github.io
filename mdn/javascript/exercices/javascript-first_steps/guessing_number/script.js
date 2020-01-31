@@ -1,5 +1,3 @@
-
-
 // Random number generator
 
 function generateNewNumber(min, max) { // snippet directly (just the name of the function was changed) copied from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -81,6 +79,9 @@ function numberRegistration(value) {
 // Giving "Winning" message
 
 function winningMessage() {
+    button.disabled = true;
+    input.disabled = true;
+
     para.style.borderRadius = "10px"
     para.style.padding = "1em"
     para.style.color = 'initial';
@@ -93,9 +94,16 @@ function winningMessage() {
 // Reboot
 
 function reboot() {
+    button.disabled = false;
+
+    input.disabled = false;
+    input.value = '';
     para.textContent = '';
     para.style.background = "initial";
+
     numbersList.textContent = '';
+
     values = [];
+    
     randomNumber = generateNewNumber(1, 100)
 };
