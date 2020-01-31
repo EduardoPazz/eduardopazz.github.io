@@ -4,20 +4,22 @@ carry = cuidar
 stand = ficar de pé, significar
 plunge = mergulhar
 daunt = assustar, intimidar
-
+tackle = abordar, enfrentar
+humble = rebaixar, humilhar, tornar humilde
 
 Nouns:
 span = pequena expansão, pequeno espaço de tempo
 stand = ficar de pé, suporte, arquibancada
-
+tackle = equipamento, apetrecho, aparelho 
 
 Adverbs:
 conversely = inversamente
+downright = absolutamente, francamente
 
 Adjectives:
 dauting = intimidador, assustador
-
-
+humble = humilde
+neat = purol impo, arrumado
 
 Expressões e phrasal verbs:
 
@@ -27,4 +29,5 @@ Expressões e phrasal verbs:
 "each in turn" = "cada um por sua vez"
 "to get to grips" = "para entender"
 "aka" = sigla para "also known as"
-"fine-grained" = Remete à precisão. 
+"fine-grained" = Remete à precisão
+"error-prone" = propenso a erros

@@ -1,11 +1,5 @@
-  function createParagraph() {
-    let para = document.createElement('p');
-    para.textContent = 'You clicked the button!';
-    document.body.appendChild(para);
-  }
-
-  const buttons = document.getElementsByTagName('button');
-
-  for (let element of buttons) {
-    element.addEventListener('click', createParagraph);
-  };
+let myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+myArray = myData.split(',');
+myArray.push('Cardiff');
+myArray.push('Bradford', 'Brighton');
+console.log(myArray)
