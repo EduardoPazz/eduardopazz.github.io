@@ -11,6 +11,7 @@ Nouns:
 span = pequena expansão, pequeno espaço de tempo
 stand = ficar de pé, suporte, arquibancada
 tackle = equipamento, apetrecho, aparelho 
+downside = desvantagem
 
 Adverbs:
 conversely = inversamente
@@ -19,7 +20,8 @@ downright = absolutamente, francamente
 Adjectives:
 dauting = intimidador, assustador
 humble = humilde
-neat = purol impo, arrumado
+neat = puro limpo, arrumado
+cumbersome = pesado, incômodo, embaraçoso
 
 Expressões e phrasal verbs:
 
@@ -31,3 +33,4 @@ Expressões e phrasal verbs:
 "aka" = sigla para "also known as"
 "fine-grained" = Remete à precisão
 "error-prone" = propenso a erros
+"tend to" = cuidar
