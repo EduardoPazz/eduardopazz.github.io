@@ -1,7 +1,10 @@
-main {
-  margin: 75% auto;
+div {
   width: 75%;
-  padding: 1em;
-  border: black 8px solid;
-  border-radius: 5px;
+  margin: auto auto;
+  height: 500px;
+}
+
+button {
+  display: block;
+  margin: 10% auto;
 }

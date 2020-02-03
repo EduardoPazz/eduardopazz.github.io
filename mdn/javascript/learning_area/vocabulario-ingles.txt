@@ -33,4 +33,4 @@ Expressões e phrasal verbs:
 "aka" = sigla para "also known as"
 "fine-grained" = Remete à precisão
 "error-prone" = propenso a erros
-"tend to" = cuidar
+"tend to" = cuidar, "tende a"
