@@ -23,6 +23,9 @@ humble = humilde
 neat = puro limpo, arrumado
 cumbersome = pesado, incômodo, embaraçoso
 
+Conjunctions:
+albeit = embora
+
 Expressões e phrasal verbs:
 
 "Bear in mind" = Algo como "tenha em mente"
