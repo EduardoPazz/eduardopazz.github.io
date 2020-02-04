@@ -1,26 +1,30 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Simple async sync example</title>
+    <title>Object-oriented JavaScript class further exercises</title>
   </head>
-  <body>
-    <script>
-      console.log ('Starting');
-      let image;
 
-      fetch('learning_area/Frog relaxing (PHROG).mp4').then((response) => {
-        console.log('It worked :)')
-        return response.blob();
-      }).then((myBlob) => {
-        let objectURL = URL.createObjectURL(myBlob);
-        image = document.createElement('img');
-        image.src = objectURL;
-        document.body.appendChild(image);
-        console.log (`All done! ${image.src} finished`);
-      }).catch((error) => {
-        console.log('There has been a problem with your fetch operation: ' + error.message);
-      });
-    </script>
+  <body>
+    <p>This example requires you to enter commands in your browser's JavaScript console (see <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">What are browser developer tools</a> for more information).</p>
+
   </body>
+
+    <script>
+      function Person(first, last, age, gender, interests) {
+        this.name = {
+          'first': first,
+          'last' : last
+        };
+        this.age = age;
+        this.gender = gender;
+        this.interests = interests;
+      };
+      let person1 = new Person('Tammi', 'Smith', 32, 'neutral', ['music', 'skiing', 'kickboxing']);
+      
+      let person2 = Object.create(person1);
+
+      console.log(person2.__proto__)
+    </script>
 </html>
