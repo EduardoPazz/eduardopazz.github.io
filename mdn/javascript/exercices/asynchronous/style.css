@@ -1,0 +1,31 @@
+body {
+  background: #B33024;
+}
+
+main {
+  margin: 1em auto;
+  width: 75%;
+  background: #2D6BB3;
+  border: 2px solid #E8FF66;
+  border-radius: 1em;
+  box-shadow: 2px 2px 10px #E8FF66;
+}
+
+#clock {
+  margin: 1em;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.226);
+  background: #2974CC;
+  font-size: xx-large;
+  color: white;
+}
+
+#buttons {
+  width: 75%;
+  margin: auto auto;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}
