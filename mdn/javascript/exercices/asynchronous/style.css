@@ -20,12 +20,22 @@ main {
   color: white;
 }
 
-#buttons {
-  width: 75%;
-  margin: auto auto;
+#buttons, #history-buttons {
+  width: 80px;
+  padding: 0;
+  margin: 1em auto;
+  border: 2px solid white;
 }
 
 button {
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+#history {
+	margin: 1em 80px;
+}
+
+li {
+	list-style-type: none;
 }
