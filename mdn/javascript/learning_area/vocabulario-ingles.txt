@@ -16,15 +16,19 @@ downside = desvantagem
 Adverbs:
 conversely = inversamente
 downright = absolutamente, francamente
+hence = consequentemente, por consequência
 
 Adjectives:
 dauting = intimidador, assustador
 humble = humilde
 neat = puro limpo, arrumado
 cumbersome = pesado, incômodo, embaraçoso
+mandatory = obrigatório
+nifty = bacana
 
 Conjunctions:
 albeit = embora
+hence = consequentemente, por consequência
 
 Expressões e phrasal verbs:
 
