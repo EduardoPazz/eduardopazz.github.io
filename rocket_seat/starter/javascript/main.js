@@ -1,4 +1,3 @@
-const xhr = new XMLHttpRequest();
-
-xhr.open('GET', 'https://api.github.com/users/diego3g');
-xhr.send(null);
+axios.get('https://api.github.com/users/diego3g')
+    .then(response => console.log(response.request.readyState))
+    .catch(console.warn);
