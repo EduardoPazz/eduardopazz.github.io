@@ -1,2 +1,2 @@
 # MyCodes
-All the codes I've written in my chase of development knowledge.
+Repositório criado como nuvem para as minhas produções e estudos.
